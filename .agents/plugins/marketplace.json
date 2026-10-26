@@ -1,0 +1,20 @@
+{
+  "name": "turakam83-plugins",
+  "interface": {
+    "displayName": "Plugins de Turakam83"
+  },
+  "plugins": [
+    {
+      "name": "assistant-mail-imap",
+      "source": {
+        "source": "local",
+        "path": "./plugins/assistant-mail-imap"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Communication"
+    }
+  ]
+}

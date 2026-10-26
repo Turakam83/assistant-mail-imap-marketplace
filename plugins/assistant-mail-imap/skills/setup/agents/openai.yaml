@@ -1,0 +1,4 @@
+interface:
+  display_name: "Configurer ma messagerie"
+  short_description: "Ajouter une boîte ou gérer ses connexions mail"
+  default_prompt: "Aide-moi à connecter une boîte mail ou à gérer mes adresses dans Assistant Mail IMAP."

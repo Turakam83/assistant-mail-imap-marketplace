@@ -1,0 +1,34 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "assistant-mail-imap",
+  "version": "1.0.4",
+  "description": "Connectez plusieurs boîtes mail à ChatGPT. Retrouvez vos messages, consultez vos pièces jointes et posez vos questions sur leur contenu.",
+  "author": {
+    "name": "Turakam83",
+    "url": "https://github.com/Turakam83"
+  },
+  "keywords": [
+    "imap",
+    "mail",
+    "email",
+    "pièces jointes",
+    "plusieurs boîtes"
+  ],
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/setup/SKILL.md",
+      "interface": {
+        "capabilities": [],
+        "category": "Communication",
+        "defaultPrompt": null,
+        "developerName": "Turakam83",
+        "displayName": "Assistant Mail IMAP",
+        "longDescription": "Connectez plusieurs boîtes mail à ChatGPT. Retrouvez vos messages, consultez vos pièces jointes et posez vos questions sur leur contenu.",
+        "shortDescription": "Vos mails IMAP dans ChatGPT",
+        "websiteURL": "https://assistant-mail-imap.turakam.chatgpt.site",
+        "logo": "./assets/icon.svg",
+        "composerIcon": "./assets/icon.svg"
+      }
+    }
+  }
+}

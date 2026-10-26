@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "assistant-mail-imap": {
+      "type": "streamable-http",
+      "url": "https://assistant-mail-imap.turakam.chatgpt.site/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "resource": "https://assistant-mail-imap.turakam.chatgpt.site/mcp"
+          }
+        }
+      }
+    }
+  }
+}

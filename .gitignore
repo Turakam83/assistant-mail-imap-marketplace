@@ -1,0 +1,7 @@
+*.zip
+*.tar.gz
+.env
+.env.*
+node_modules/
+__pycache__/
+.DS_Store

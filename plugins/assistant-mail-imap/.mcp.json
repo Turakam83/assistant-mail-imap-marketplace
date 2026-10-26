@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "assistant-mail-imap": {
+      "type": "http",
+      "url": "https://assistant-mail-imap.turakam.chatgpt.site/mcp"
+    }
+  }
+}
